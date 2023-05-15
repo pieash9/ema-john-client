@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cart-container{
+    @apply w-1/4 p-5 bg-warning bg-opacity-30 ml-5 rounded h-full sticky top-10
+}
+.shop-container{
+    @apply flex px-5 mt-10
+}
+.products-container{
+    @apply w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5
+}
+.review-container{
+    @apply  my-[50px] mx-auto
+}
+.review-item{
+    @apply w-[671px] border rounded border-slate-300 mb-6
+}
